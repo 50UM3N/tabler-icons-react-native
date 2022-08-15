@@ -1,0 +1,43 @@
+{
+    "homepage": "https://github.com/50UM3N/tabler-icons-react-native.git",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/50UM3N/tabler-icons-react-native.git"
+    },
+    "name": "tabler-icons-react-native",
+    "version": "0.0.2",
+    "description": "Tabler icons",
+    "main": "index.js",
+    "module": "index.js",
+    "types": "index.d.ts",
+    "typings": "index.d.ts",
+    "devDependencies": {
+        "react": "^18.2.0",
+        "react-native-svg": "^12.4.4"
+    },
+    "peerDependencies": {
+        "react": "^16.x || 17.x || 18.x",
+        "react-native-svg": "^11.x || 12.x"
+    },
+    "peerDependenciesMeta": {
+        "react": {
+            "optional": true
+        },
+        "react-native-svg": {
+            "optional": true
+        }
+    },
+    "keywords": [
+        "icons",
+        "svg",
+        "png",
+        "iconfont",
+        "react",
+        "react-native",
+        "react-native-icons",
+        "react-native-icon",
+        "tabler-icons"
+    ],
+    "author": "Soumen Khara",
+    "license": "MIT"
+}
