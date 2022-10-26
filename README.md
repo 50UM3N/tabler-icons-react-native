@@ -1,4 +1,4 @@
-# tabler-icons-react-native
+# Tabler Icons React Native
 
 A library of React Native components for [Tabler Icons](https://github.com/tabler/tabler-icons) — a set of over free 2200 open-sourced MIT-licensed icons.
 
