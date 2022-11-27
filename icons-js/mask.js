@@ -2,7 +2,7 @@ import Svg, { Path, Circle, Rect } from 'react-native-svg';
 import * as React from "react";
 function IconMask({
   size = 24,
-  color = "currentColor",
+  color = "#1f2937",
   stroke = 2,
   ...props
 }) {

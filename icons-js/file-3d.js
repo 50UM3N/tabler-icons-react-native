@@ -2,7 +2,7 @@ import Svg, { Path } from 'react-native-svg';
 import * as React from "react";
 function IconFile3d({
   size = 24,
-  color = "currentColor",
+  color = "#1f2937",
   stroke = 2,
   ...props
 }) {

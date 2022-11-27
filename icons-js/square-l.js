@@ -2,7 +2,7 @@ import Svg, { Path, Rect } from 'react-native-svg';
 import * as React from "react";
 function IconSquareL({
   size = 24,
-  color = "currentColor",
+  color = "#1f2937",
   stroke = 2,
   ...props
 }) {

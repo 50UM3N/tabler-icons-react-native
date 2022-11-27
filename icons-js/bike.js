@@ -2,7 +2,7 @@ import Svg, { Path, Circle, Polyline } from 'react-native-svg';
 import * as React from "react";
 function IconBike({
   size = 24,
-  color = "currentColor",
+  color = "#1f2937",
   stroke = 2,
   ...props
 }) {

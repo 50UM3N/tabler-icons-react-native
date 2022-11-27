@@ -2,7 +2,7 @@ import Svg, { Path, Circle } from 'react-native-svg';
 import * as React from "react";
 function IconRating12Plus({
   size = 24,
-  color = "currentColor",
+  color = "#1f2937",
   stroke = 2,
   ...props
 }) {
