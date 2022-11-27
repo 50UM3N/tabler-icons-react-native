@@ -1,12 +1,11 @@
-import Svg, { Path } from "react-native-svg";
-
+import Svg, { Path } from 'react-native-svg';
+import * as React from "react";
 function IconBrandAmazon({
   size = 24,
-  color = "#232e46",
+  color = "currentColor",
   stroke = 2,
   ...props
 }) {
-  return <Svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-brand-amazon" width={size} height={size} viewBox="0 0 24 24" strokeWidth={stroke} stroke={color} fill="none" strokeLinecap="round" strokeLinejoin="round" {...props}><Path stroke="none" d="M0 0h24v24H0z" fill="none" /><Path d="M7 6c.5 -2 2 -3 4.089 -3c2.441 .08 3.93 1.557 3.911 3.667v5.5c0 .903 1.04 1.833 2 1.833" /><Path d="M15 8.13c-14.133 -1.558 -6.545 11.61 0 2.82" /><Path d="M19.877 22l2.123 -4l-4 -1" /><Path d="M22 18.01c-3.05 1.966 -6.493 2.996 -9.993 2.99c-3.507 .006 -6.953 -1.027 -10.007 -3" /></Svg>;
+  return <Svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-brand-amazon" width={size} height={size} viewBox="0 0 24 24" strokeWidth={stroke} stroke={color} fill="none" strokeLinecap="round" strokeLinejoin="round" {...props}><Path stroke="none" d="M0 0h24v24H0z" fill="none" /><Path d="M17 12.5a15.198 15.198 0 0 1 -7.37 1.44a14.62 14.62 0 0 1 -6.63 -2.94" /><Path d="M19.5 15c.907 -1.411 1.451 -3.323 1.5 -5c-1.197 -.773 -2.577 -.935 -4 -1" /></Svg>;
 }
-
 export default IconBrandAmazon;

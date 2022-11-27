@@ -1,12 +1,11 @@
-import Svg, { Path } from "react-native-svg";
-
+import Svg, { Path } from 'react-native-svg';
+import * as React from "react";
 function IconSoup({
   size = 24,
-  color = "#232e46",
+  color = "currentColor",
   stroke = 2,
   ...props
 }) {
-  return <Svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-soup" width={size} height={size} viewBox="0 0 24 24" strokeWidth={stroke} stroke={color} fill="none" strokeLinecap="round" strokeLinejoin="round" {...props}><Path stroke="none" d="M0 0h24v24H0z" fill="none" /><Path d="M3 19h18" /><Path d="M3 11h18a8 8 0 0 1 -8 8h-2a8 8 0 0 1 -8 -8z" /><Path d="M9 8v-3" /><Path d="M12 5v3" /><Path d="M15 5v3" /></Svg>;
+  return <Svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-soup" width={size} height={size} viewBox="0 0 24 24" strokeWidth={stroke} stroke={color} fill="none" strokeLinecap="round" strokeLinejoin="round" {...props}><Path stroke="none" d="M0 0h24v24H0z" fill="none" /><Path d="M4 11h16a1 1 0 0 1 1 1v.5c0 1.5 -2.517 5.573 -4 6.5v1a1 1 0 0 1 -1 1h-8a1 1 0 0 1 -1 -1v-1c-1.687 -1.054 -4 -5 -4 -6.5v-.5a1 1 0 0 1 1 -1z" /><Path d="M12 4a2.4 2.4 0 0 0 -1 2a2.4 2.4 0 0 0 1 2" /><Path d="M16 4a2.4 2.4 0 0 0 -1 2a2.4 2.4 0 0 0 1 2" /><Path d="M8 4a2.4 2.4 0 0 0 -1 2a2.4 2.4 0 0 0 1 2" /></Svg>;
 }
-
 export default IconSoup;
