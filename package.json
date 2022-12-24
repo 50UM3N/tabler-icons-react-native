@@ -5,7 +5,7 @@
         "url": "git+https://github.com/50UM3N/tabler-icons-react-native.git"
     },
     "name": "tabler-icons-react-native",
-    "version": "1.116.1",
+    "version": "1.118.0",
     "description": "Tabler icons",
     "main": "index.js",
     "module": "index.js",
