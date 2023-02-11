@@ -1,0 +1,13 @@
+import Svg, { Path } from 'react-native-svg';
+                    
+function IconCane({
+  size = 24,
+  color = "#1f2937",
+  stroke = 2,
+  ...props
+}) {
+  return <Svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-cane" width={size} height={size} viewBox="0 0 24 24" strokeWidth={stroke} stroke={color} fill="none" strokeLinecap="round" strokeLinejoin="round" {...props} ><Path stroke="none" d="M0 0h24v24H0z" fill="none" /><Path d="M9 21l6.324 -11.69c.54 -.974 1.756 -4.104 -1.499 -5.762c-3.255 -1.657 -5.175 .863 -5.825 2.032" /></Svg>;
+
+}
+export default IconCane;
+                    

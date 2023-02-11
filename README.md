@@ -1,6 +1,6 @@
 # Tabler Icons React Native
 
-A library of React Native components for [Tabler Icons](https://github.com/tabler/tabler-icons) — a set of over free 3000 open-sourced MIT-licensed icons.
+A library of React Native components for [Tabler Icons](https://github.com/tabler/tabler-icons) — a set of over free 3200 open-sourced MIT-licensed icons.
 
 <p align="center">
   <a href="https://tabler-icons.io/"><strong>Browse at tabler-icons.io &rarr;</strong></a>
@@ -16,6 +16,10 @@ npm install tabler-icons-react-native
 
 # yarn
 yarn add tabler-icons-react-native
+
+# imp. react-native-svg
+expo install react-native-svg
+
 ```
 
 After installing the package you can import Tabler Icons as React Native components as follows:
