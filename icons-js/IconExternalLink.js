@@ -6,7 +6,7 @@ function IconExternalLink({
   stroke = 2,
   ...props
 }) {
-  return <Svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-external-link" width={size} height={size} viewBox="0 0 24 24" strokeWidth={stroke} stroke={color} fill="none" strokeLinecap="round" strokeLinejoin="round" {...props} ><Path stroke="none" d="M0 0h24v24H0z" fill="none" /><Path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" /><Path d="M10 14l10 -10" /><Path d="M15 4l5 0l0 5" /></Svg>;
+  return <Svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-external-link" width={size} height={size} viewBox="0 0 24 24" strokeWidth={stroke} stroke={color} fill="none" strokeLinecap="round" strokeLinejoin="round" {...props} ><Path stroke="none" d="M0 0h24v24H0z" fill="none" /><Path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6" /><Path d="M11 13l9 -9" /><Path d="M15 4h5v5" /></Svg>;
 
 }
 export default IconExternalLink;
