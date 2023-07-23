@@ -1,5 +1,5 @@
 import Svg, { Path } from 'react-native-svg';
-                    
+         
 function IconLocationBroken({
   size = 24,
   color = "#1f2937",
@@ -10,4 +10,4 @@ function IconLocationBroken({
 
 }
 export default IconLocationBroken;
-                    
+        

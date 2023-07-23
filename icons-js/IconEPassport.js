@@ -1,5 +1,5 @@
 import Svg, { Path } from 'react-native-svg';
-                    
+         
 function IconEPassport({
   size = 24,
   color = "#1f2937",
@@ -10,4 +10,4 @@ function IconEPassport({
 
 }
 export default IconEPassport;
-                    
+        

@@ -1,5 +1,5 @@
 import Svg, { Path } from 'react-native-svg';
-                    
+         
 function IconBrand4chan({
   size = 24,
   color = "#1f2937",
@@ -10,4 +10,4 @@ function IconBrand4chan({
 
 }
 export default IconBrand4chan;
-                    
+        

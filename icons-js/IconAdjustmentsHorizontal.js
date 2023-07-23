@@ -1,5 +1,5 @@
 import Svg, { Path } from 'react-native-svg';
-                    
+         
 function IconAdjustmentsHorizontal({
   size = 24,
   color = "#1f2937",
@@ -10,4 +10,4 @@ function IconAdjustmentsHorizontal({
 
 }
 export default IconAdjustmentsHorizontal;
-                    
+        

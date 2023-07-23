@@ -1,5 +1,5 @@
 import Svg, { Path } from 'react-native-svg';
-                    
+         
 function IconSquareF2({
   size = 24,
   color = "#1f2937",
@@ -10,4 +10,4 @@ function IconSquareF2({
 
 }
 export default IconSquareF2;
-                    
+        

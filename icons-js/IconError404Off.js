@@ -1,5 +1,5 @@
 import Svg, { Path } from 'react-native-svg';
-                    
+         
 function IconError404Off({
   size = 24,
   color = "#1f2937",
@@ -10,4 +10,4 @@ function IconError404Off({
 
 }
 export default IconError404Off;
-                    
+        

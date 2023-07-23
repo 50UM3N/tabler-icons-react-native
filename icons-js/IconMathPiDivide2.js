@@ -1,5 +1,5 @@
 import Svg, { Path } from 'react-native-svg';
-                    
+         
 function IconMathPiDivide2({
   size = 24,
   color = "#1f2937",
@@ -10,4 +10,4 @@ function IconMathPiDivide2({
 
 }
 export default IconMathPiDivide2;
-                    
+        

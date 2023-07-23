@@ -1,5 +1,5 @@
 import Svg, { Path } from 'react-native-svg';
-                    
+         
 function IconArrowAutofitRight({
   size = 24,
   color = "#1f2937",
@@ -10,4 +10,4 @@ function IconArrowAutofitRight({
 
 }
 export default IconArrowAutofitRight;
-                    
+        

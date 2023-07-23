@@ -1,5 +1,5 @@
 import Svg, { Path } from 'react-native-svg';
-                    
+         
 function IconArmchair2Off({
   size = 24,
   color = "#1f2937",
@@ -10,4 +10,4 @@ function IconArmchair2Off({
 
 }
 export default IconArmchair2Off;
-                    
+        

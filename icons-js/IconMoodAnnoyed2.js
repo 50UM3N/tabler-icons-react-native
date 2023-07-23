@@ -1,5 +1,5 @@
 import Svg, { Path } from 'react-native-svg';
-                    
+         
 function IconMoodAnnoyed2({
   size = 24,
   color = "#1f2937",
@@ -10,4 +10,4 @@ function IconMoodAnnoyed2({
 
 }
 export default IconMoodAnnoyed2;
-                    
+        

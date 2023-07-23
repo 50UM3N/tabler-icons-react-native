@@ -1,5 +1,5 @@
 import Svg, { Path } from 'react-native-svg';
-                    
+         
 function IconDna2({
   size = 24,
   color = "#1f2937",
@@ -10,4 +10,4 @@ function IconDna2({
 
 }
 export default IconDna2;
-                    
+        

@@ -1,5 +1,5 @@
 import Svg, { Path } from 'react-native-svg';
-                    
+         
 function IconDeviceWatchStar({
   size = 24,
   color = "#1f2937",
@@ -10,4 +10,4 @@ function IconDeviceWatchStar({
 
 }
 export default IconDeviceWatchStar;
-                    
+        

@@ -1,5 +1,5 @@
 import Svg, { Path } from 'react-native-svg';
-                    
+         
 function IconWashTemperature2({
   size = 24,
   color = "#1f2937",
@@ -10,4 +10,4 @@ function IconWashTemperature2({
 
 }
 export default IconWashTemperature2;
-                    
+        

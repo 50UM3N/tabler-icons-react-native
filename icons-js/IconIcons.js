@@ -1,5 +1,5 @@
 import Svg, { Path } from 'react-native-svg';
-                    
+         
 function IconIcons({
   size = 24,
   color = "#1f2937",
@@ -10,4 +10,4 @@ function IconIcons({
 
 }
 export default IconIcons;
-                    
+        

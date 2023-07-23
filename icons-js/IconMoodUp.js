@@ -1,5 +1,5 @@
 import Svg, { Path } from 'react-native-svg';
-                    
+         
 function IconMoodUp({
   size = 24,
   color = "#1f2937",
@@ -10,4 +10,4 @@ function IconMoodUp({
 
 }
 export default IconMoodUp;
-                    
+        

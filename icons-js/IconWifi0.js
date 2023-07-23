@@ -1,5 +1,5 @@
 import Svg, { Path } from 'react-native-svg';
-                    
+         
 function IconWifi0({
   size = 24,
   color = "#1f2937",
@@ -10,4 +10,4 @@ function IconWifi0({
 
 }
 export default IconWifi0;
-                    
+        

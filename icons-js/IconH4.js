@@ -1,5 +1,5 @@
 import Svg, { Path } from 'react-native-svg';
-                    
+         
 function IconH4({
   size = 24,
   color = "#1f2937",
@@ -10,4 +10,4 @@ function IconH4({
 
 }
 export default IconH4;
-                    
+        

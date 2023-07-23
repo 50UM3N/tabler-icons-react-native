@@ -1,5 +1,5 @@
 import Svg, { Path } from 'react-native-svg';
-                    
+         
 function IconSquareNumber9({
   size = 24,
   color = "#1f2937",
@@ -10,4 +10,4 @@ function IconSquareNumber9({
 
 }
 export default IconSquareNumber9;
-                    
+        

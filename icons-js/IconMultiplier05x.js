@@ -1,5 +1,5 @@
 import Svg, { Path } from 'react-native-svg';
-                    
+         
 function IconMultiplier05x({
   size = 24,
   color = "#1f2937",
@@ -10,4 +10,4 @@ function IconMultiplier05x({
 
 }
 export default IconMultiplier05x;
-                    
+        

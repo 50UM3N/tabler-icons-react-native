@@ -1,5 +1,5 @@
 import Svg, { Path } from 'react-native-svg';
-                    
+         
 function IconAB2({
   size = 24,
   color = "#1f2937",
@@ -10,4 +10,4 @@ function IconAB2({
 
 }
 export default IconAB2;
-                    
+        
