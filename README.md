@@ -1,12 +1,12 @@
 # Tabler Icons React Native
 
-A library of React Native components for [Tabler Icons](https://github.com/tabler/tabler-icons) — a set of over free 2200 open-sourced MIT-licensed icons.
+Tabler Icons React Native is a library of React Native components that provide access to [Tabler Icons](https://github.com/tabler/tabler-icons) — a collection of over 2200 open-sourced, MIT-licensed icons.
 
 <p align="center">
   <a href="https://tabler-icons.io/"><strong>Browse at tabler-icons.io &rarr;</strong></a>
 </p>
 
-## Usage
+## Installation
 
 The package is available via npm and can be installed using `npm` or `yarn`:
 
@@ -18,7 +18,9 @@ npm install tabler-icons-react-native
 yarn add tabler-icons-react-native
 ```
 
-After installing the package you can import Tabler Icons as React Native components as follows:
+## Usage
+
+After installing the package, you can import Tabler Icons as React Native components like this:
 
 ```jsx
 import { Activity } from "tabler-icons-react-native";
@@ -27,21 +29,24 @@ import { Activity } from "tabler-icons-react-native";
 ## Example
 
 ```jsx
-...
+import React from 'react';
+import { View } from 'react-native';
 import { Activity } from 'tabler-icons-react-native';
 
-export default function Example() {
+const Example = () => {
   return (
     <View>
       <Activity size={48} color="red" />
     </View>
   );
 }
+
+export default Example;
 ```
 
-## Docs
+## Documentation
 
-Every icon component accepts following props:
+Every icon component accepts the following props:
 
 | Prop    |     Default |
 | ------- | ----------: |
@@ -50,4 +55,4 @@ Every icon component accepts following props:
 
 ## License
 
-This project is MIT licensed.
+This project is licensed under the MIT License.
