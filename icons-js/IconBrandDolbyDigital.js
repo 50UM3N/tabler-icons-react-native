@@ -1,0 +1,13 @@
+import Svg, { Path } from 'react-native-svg';
+         
+function IconBrandDolbyDigital({
+  size = 24,
+  color = "#1f2937",
+  stroke = 2,
+  ...props
+}) {
+  return <Svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-dolby-digital" width={size} height={size} viewBox="0 0 24 24" strokeWidth={stroke} stroke={color} fill="none" strokeLinecap="round" strokeLinejoin="round" {...props} ><Path stroke="none" d="M0 0h24v24H0z" fill="none" /><Path d="M21 6v12h-.89c-3.34 0 -6.047 -2.686 -6.047 -6s2.707 -6 6.046 -6h.891z" /><Path d="M3.063 6v12h.891c3.34 0 6.046 -2.686 6.046 -6s-2.707 -6 -6.046 -6h-.89z" /></Svg>;
+
+}
+export default IconBrandDolbyDigital;
+        
