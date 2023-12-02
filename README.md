@@ -23,7 +23,7 @@ yarn add tabler-icons-react-native
 After installing the package, you can import Tabler Icons as React Native components like this:
 
 ```jsx
-import { Activity } from "tabler-icons-react-native";
+import { IconActivity } from "tabler-icons-react-native";
 ```
 
 ## Example
@@ -31,12 +31,12 @@ import { Activity } from "tabler-icons-react-native";
 ```jsx
 import React from 'react';
 import { View } from 'react-native';
-import { Activity } from 'tabler-icons-react-native';
+import { IconActivity } from 'tabler-icons-react-native';
 
 const Example = () => {
   return (
     <View>
-      <Activity size={48} color="red" />
+      <IconActivity size={48} color="red" />
     </View>
   );
 }
@@ -51,6 +51,7 @@ Every icon component accepts the following props:
 | Prop    |     Default |
 | ------- | ----------: |
 | `size`  |        `24` |
+| `stroke`|         `2` |
 | `color` | `'#232e46'` |
 
 ## License
